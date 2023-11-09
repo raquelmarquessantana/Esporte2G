@@ -14,6 +14,9 @@ public class Main {
         Pessoa outra = new Pessoa();
         String retorno = outra.sacar();
         System.out.println(retorno);
+        outra = new Esportista();
+        retorno = outra.sacar();
+        System.out.println(retorno);
 
     }
 }
